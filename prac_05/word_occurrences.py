@@ -13,4 +13,4 @@ for word in text_list:
         word_occurrences[word]+=1
 
 for x,y in word_occurrences.items():
-    print("{}:{}".format(x,y))
+    print("{}:{}".format(x,y)
