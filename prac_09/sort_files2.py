@@ -3,7 +3,7 @@ import os
 
 def main():
     """Move files into where user wants to store them based on extension."""
-    extension_to_category = {}
+`    extension_to_category = {}
     os.chdir("FilesToSort")
     for filename in os.listdir('.'):
         if os.path.isdir(filename):
